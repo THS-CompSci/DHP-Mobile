@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: cornflowerblue !important;
+                padding-top: 16em;
+                width: 450px !important;
+                margin:auto !important;
+
+            }
+
+            div.color{
+                background-color: whitesmoke;
+                height : 450px !important;
+                padding-top: 5em;
+                padding-left: 2em;
+
+            }
+            div.form{
+                width: 200px !important;
+                margin: auto !important;
+            }
+            div.pad{
+                padding-top: 1em;
+            }
+
+
+        </style>
+        <meta name=viewport content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="Intermediate.js"></script>
+        <title>HallPass</title>
+    </head>
+    <body >
+        <div class="color">
+            <div class="container-fluid form" style="">
+                <div class="row">
+                    <h1>HallPass Teacher</h1>
+                    <label>Username</label>
+                    <input type ="text"     
+                           id ="username"
+                           value = ""/>
+                    <p></p>
+                    <label>Password</label>
+                    <input type ="password"     
+                           id ="password"
+                           value = ""/>
+                    <div class="pad">
+                        <button class="btn btn-primary"type="submit">Enter</button>
+                    </div>
+                    <p style="display:none" id="errormsg" ><font  color="red">
+                        Username or password error! Please retry.</font>
+                </p>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+
+</html>
