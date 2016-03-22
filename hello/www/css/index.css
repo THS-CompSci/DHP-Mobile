@@ -184,3 +184,14 @@ img{
     margin:auto !important;
     
 }
+table{
+            	border-collapse: collapse;
+            	width: 100%;
+            }
+            table,td,tr{
+            	border: 1px solid black;
+                text-align: center;
+            }
+            input{
+            	float: middle;
+            }
